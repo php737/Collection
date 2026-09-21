@@ -27,7 +27,7 @@ TEST_TIMEOUT = 7                    # 单个代理测试超时（秒）
 MAX_WORKERS = 10                    # 并发测试线程数
 
 # 采集源站时使用的本地代理（如不需要可设为 None）
-LOCAL_PROXY = 'socks5h://192.168.8.2:1081'
+LOCAL_PROXY = ''
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
